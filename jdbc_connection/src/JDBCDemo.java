@@ -12,7 +12,7 @@ public class JDBCDemo {
             DriverManager.getConnection(url, username, password);
             System.out.println("Established Connection");
         } catch (Exception e) {
-            e.printStackTrace(); // TODO: handle exception
+            e.printStackTrace();
         }
     }
 }
